@@ -1,0 +1,32 @@
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Pizza bacon', 49.9, 'https:raw.githubusercontent.com/devsuperior/sds2/master/assets/pizza_bacon.jpg', 'Pizza de bacon com mussarela, orégano, molho especial e tempero da casa');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Pizza Moda da Casa', 59.9, 'https:raw.githuubusercontent.com/devsuperior/sds2/master/assets/pizza__moda.jpg', 'Pizza à moda da casa, com  molho especial e todos os ingredientes básicos, e queijo a sua escolha');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Pizza Portuguesa', 40.9, 'https:raw.githubusercontent.com/devsuperior/sds2/master/assets/pizza__portuguesa.jpg', 'Pizza Portuguesa com  molho especial, mussarela, presunto, ovos e especiarias');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Rissoto de Carne', 52.9, 'https:raw.githubusercontent.com/devsuperior/sds2/master/assets/rissoto_carne.jpg', 'Risoto de carne com especiarias e um delicioso molho de acompanhamento');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Risoto Funghi', 59.95, 'https:raw.githuubusercontent.com/devsuperior/sds2/master/assets/risoto_funghi.jpg', 'Risoto Funghi feito com ingredientes finos e o toque especial do chefe');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Macarrão Espaguete', 35.9, 'https:raw.githuubusercontent.com/devsuperior/sds2/master/assets/macarrao_espaguete.jpg', 'Macarrão fresco espaguete com molho especial e tempero da casa');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Macarrão Fusilli', 35.0, 'https:raw.githuubusercontent.com/devsuperior/sds2/master/assets/macarrao_fusili.jpg', 'Macarrão fusili com toque do chefe e especiarias');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Macarrão Penne', 37.9, 'https:raw.githuubusercontent.com/devsuperior/sds2/master/assets/macarrao_penne.jpg', 'Macarrão penne com toque especial do chefe');
+
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.561680, -46.656139, 'Av. Paulista, 1500', '2021-01-07 07:00:00');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (1, -22.946779, -43.217753, 'Av. Paulista, 1500', '2021-01-07 13:00:00');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -25.439787, -49.237759, 'Av. Paulista, 1500', '2021-01-07 09:00:00');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.56168, -46.656139, 'Av. Paulista, 1500',  '2021-01-07 05:00:00');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (1, -23.56168, -43.217753, 'Av. Paulista, 1500',  '2021-01-01 13:00:00');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.56168, -43.217753, 'Av. Paulista, 1500',  '2021-01-01 11:00:00');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (1, -23.56168, -43.217753, 'Av. Paulista, 1500',  '2021-01-01 06:00:00');
+
+INSERT INTO tb_order_product (order_id, product_id) VALUES (1,1);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (1,4);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (2,2);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (2,5);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (2,8);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (3,3);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (3,4);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (4,2);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (4,6);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (5,4);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (5,6);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (6,5);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (6,1);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (7,7);
+INSERT INTO tb_order_product (order_id, product_id) VALUES (7,5);
