@@ -13,7 +13,7 @@ INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -
 INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.56168, -46.656139, 'Av. Paulista, 1500',  '2021-01-07 05:00:00');
 INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (1, -23.56168, -43.217753, 'Av. Paulista, 1500',  '2021-01-01 13:00:00');
 INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.56168, -43.217753, 'Av. Paulista, 1500',  '2021-01-01 11:00:00');
-INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (1, -23.56168, -43.217753, 'Av. Paulista, 1500',  '2021-01-01 06:00:00');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.56168, -43.217753, 'Av. Paulista, 1500',  '2021-01-01 06:00:00');
 
 INSERT INTO tb_order_product (order_id, product_id) VALUES (1,1);
 INSERT INTO tb_order_product (order_id, product_id) VALUES (1,4);
