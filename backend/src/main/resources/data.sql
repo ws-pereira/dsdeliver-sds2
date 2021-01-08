@@ -7,13 +7,14 @@ INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Macarrão 
 INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Macarrão Fusilli', 35.0, 'https:raw.githuubusercontent.com/devsuperior/sds2/master/assets/macarrao_fusili.jpg', 'Macarrão fusili com toque do chefe e especiarias');
 INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Macarrão Penne', 37.9, 'https:raw.githuubusercontent.com/devsuperior/sds2/master/assets/macarrao_penne.jpg', 'Macarrão penne com toque especial do chefe');
 
-INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.561680, -46.656139, 'Av. Paulista, 1500', '2021-01-07 07:00:00');
-INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (1, -22.946779, -43.217753, 'Av. Paulista, 1500', '2021-01-07 13:00:00');
-INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -25.439787, -49.237759, 'Av. Paulista, 1500', '2021-01-07 09:00:00');
-INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.56168, -46.656139, 'Av. Paulista, 1500',  '2021-01-07 05:00:00');
-INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (1, -23.56168, -43.217753, 'Av. Paulista, 1500',  '2021-01-01 13:00:00');
-INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.56168, -43.217753, 'Av. Paulista, 1500',  '2021-01-01 11:00:00');
-INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.56168, -43.217753, 'Av. Paulista, 1500',  '2021-01-01 06:00:00');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.561680, -46.656139, 'Avenida Paulista, 1500', TIMESTAMP WITH TIME ZONE '2021-01-01T10:00:00Z');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (1, -22.946779, -43.217753, 'Avenida Paulista, 1500', TIMESTAMP WITH TIME ZONE '2021-01-01T15:00:00Z');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -25.439787, -49.237759, 'Avenida Paulista, 1500', TIMESTAMP WITH TIME ZONE '2021-01-01T16:00:00Z');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.561680, -46.656139, 'Avenida Paulista, 1500', TIMESTAMP WITH TIME ZONE '2021-01-01T12:00:00Z');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (1, -23.561680, -46.656139, 'Avenida Paulista, 1500', TIMESTAMP WITH TIME ZONE '2021-01-01T08:00:00Z');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.561680, -46.656139, 'Avenida Paulista, 1500', TIMESTAMP WITH TIME ZONE '2021-01-01T14:00:00Z');
+INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.561680, -46.656139, 'Avenida Paulista, 1500', TIMESTAMP WITH TIME ZONE '2021-01-01T09:00:00Z');
+
 
 INSERT INTO tb_order_product (order_id, product_id) VALUES (1,1);
 INSERT INTO tb_order_product (order_id, product_id) VALUES (1,4);
